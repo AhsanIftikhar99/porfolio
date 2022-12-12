@@ -8,7 +8,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import './Home.css';
 
@@ -199,19 +199,16 @@ const Home = () => {
 
                 <Row className='footerContent mb-5'>
                     <Col className='iconsContainer'>
-                        <a href='https://facebook.com/mubbashir.ali.9/'>
-                            <FontAwesomeIcon icon={faFacebook} style={{ color: '#ffffff', fontSize: '3rem' }} />
-                        </a>
-                        <a href='https://linkedin.com/in/mubbashir-ali-8604aa191/'>
+                        <a rel="noopener noreferrer" target="_blank" href='https://www.linkedin.com/in/ahsan-iftikhar-b13b271aa/'>
                             <FontAwesomeIcon icon={faLinkedin} style={{ color: '#ffffff', fontSize: '3rem' }} />
                         </a>
-                        <a href='https://github.com/MubbashirAli35'>
+                        <a rel="noopener noreferrer" target="_blank" href='https://github.com/AhsanIftikhar99'>
                             <FontAwesomeIcon icon={faGithub} style={{ color: '#ffffff', fontSize: '3rem' }} />
                         </a>
-                        <a href='https://instagram.com/mubbashirali.8/'>
+                        <a rel="noopener noreferrer" target="_blank" href='https://instagram.com/ahsaniex/'>
                             <FontAwesomeIcon icon={faInstagram} style={{ color: '#ffffff', fontSize: '3rem' }} />
                         </a>
-                        <a href='mailto:mubbashirali35@gmail.com'>
+                        <a rel="noopener noreferrer" target="_blank" href='mailto:ahsaniftikhar2016@gmail.com'>
                             <FontAwesomeIcon icon={faEnvelope} style={{ color: '#ffffff', fontSize: '3rem' }} />
                         </a>
                     </Col>
